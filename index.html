@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Research</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/scss/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header__container">
+        <a href="index.html" class="header__left">
+          <img src="/img/LOGO.png" alt="" class="header__logo" />
+        </a>
+
+        <div class="header__right">
+          <div class="header__top">
+            <ul class="header__top--list">
+              <li class="header__top--item">
+                <i class="fas fa-map-marker-alt header__icon"></i>
+                <span>
+                  Địa chỉ: 376 Võ Văn Tần, Phường 5, Quận 3, TP Hồ Chí Minh
+                </span>
+              </li>
+              <li class="header__top--item">
+                <i
+                  class="fas fa-phone-alt header__icon header__icon--black"
+                ></i>
+                <span> Hotline: 0898 456 800 </span>
+              </li>
+              <li class="header__top--item">
+                <i class="fas fa-envelope header__icon"></i>
+                <span> Email: info.ctre.vn@gmail.com </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__bottom">
+            <ul class="header__bottom--list">
+              <li class="header__bottom--item">
+                <a href="#" class="header__bottom--link"> TRANG CHỦ </a>
+              </li>
+              <li class="header__bottom--item">
+                <a href="#" class="header__bottom--link"> VỀ CHÚNG TÔI </a>
+              </li>
+              <li class="header__bottom--item">
+                <a href="#" class="header__bottom--link">
+                  BẤT ĐỘNG SẢN CHO THUÊ
+                </a>
+              </li>
+              <li class="header__bottom--item">
+                <a href="#" class="header__bottom--link"> DECOR NỘI THẤT </a>
+              </li>
+              <li class="header__bottom--item">
+                <a href="#" class="header__bottom--link"> TIN TỨC </a>
+              </li>
+              <li class="header__bottom--item">
+                <a href="#" class="header__bottom--link"> LIÊN HỆ </a>
+              </li>
+              <li class="header__bottom--item header__bottom--search">
+                <!-- <input type="search"> -->
+                <i class="fas fa-search header__bottom--icon"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/img/slider_1.jpg" alt="" class="swiper__img" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slider_2.jpg" alt="" class="swiper__img" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slider_3.jpg" alt="" class="swiper__img" />
+            </div>
+          </div>
+
+          <div class="container slider__container">
+            <div class="slider__head">
+              <span class="slider__title"> FOR RENT </span>
+              <span class="slider__title--red">
+                C&nbsp;I&nbsp;T&nbsp;Y
+                &ensp;R&nbsp;E&nbsp;S&nbsp;E&nbsp;A&nbsp;R&nbsp;C&nbsp;H&ensp;
+                S&nbsp;T&nbsp;A&nbsp;T&nbsp;E
+              </span>
+            </div>
+
+            <div
+              thumbsSlider=""
+              class="swiper mySwiper"
+              style="margin-right: 0 !important"
+            >
+              <div class="swiper-wrapper thumb__wrapper">
+                <div class="swiper-slide thumb__slide">
+                  <img src="/img/slider_1.jpg" alt="" class="thumb__img" />
+                </div>
+                <div class="swiper-slide thumb__slide">
+                  <img src="/img/slider_2.jpg" alt="" class="thumb__img" />
+                </div>
+                <div class="swiper-slide thumb__slide">
+                  <img src="/img/slider_3.jpg" alt="" class="thumb__img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <section class="search">
+            <div class="custom-select">
+              <select>
+                <option value="Loại BĐS" class="search__opt">Loại BĐS</option>
+              </select>
+            </div>
+            <div class="custom-select">
+              <select>
+                <option value="Quận / Huyện" class="search__opt">
+                  Quận / Huyện
+                </option>
+              </select>
+            </div>
+            <div class="custom-select">
+              <select>
+                <option value="Diện tích" class="search__opt">Diện tích</option>
+              </select>
+            </div>
+            <div class="custom-select">
+              <select>
+                <option value="Mức giá" class="search__opt">Mức giá</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn__search">Tìm kiếm</button>
+          </section>
+
+          <section class="feature">
+            <h2 class="heading">bat&ensp;dong&ensp;san&ensp;noi&ensp;bat</h2>
+
+            <div class="feature__category">
+              <ul class="feature__list"></ul>
+            </div>
+
+            <button class="btn__primary"><span></span>Xem thêm</button>
+          </section>
+        </div>
+
+        <section class="type">
+          <div class="container">
+            <h2 class="heading">loai&ensp;bat&ensp;dong&ensp;san</h2>
+          </div>
+
+          <div class="type__category">
+            <div class="type__card card-1">
+              <h3 class="type__title">nha pho cho thue</h3>
+              <p class="type__desc">
+                We fill the space content. High-quality, beautiful, solid and
+                pleasant to
+              </p>
+            </div>
+            <div class="type__card card-2">
+              <h3 class="type__title">van phong cho thue</h3>
+              <p class="type__desc">
+                We fill the space content. High-quality, beautiful, solid and
+                pleasant to
+              </p>
+            </div>
+            <div class="type__card card-3">
+              <h3 class="type__title">mat bang cho thue</h3>
+              <p class="type__desc">
+                We fill the space content. High-quality, beautiful, solid and
+                pleasant to
+              </p>
+            </div>
+            <div class="type__card card-4">
+              <h3 class="type__title">can ho cho thue</h3>
+              <p class="type__desc">
+                We fill the space content. High-quality, beautiful, solid and
+                pleasant to
+              </p>
+            </div>
+            <div class="type__card card-5">
+              <h3 class="type__title">can ho dich vu</h3>
+              <p class="type__desc">
+                We fill the space content. High-quality, beautiful, solid and
+                pleasant to
+              </p>
+            </div>
+          </div>
+        </section>
+
+        
+    </div>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
